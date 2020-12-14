@@ -1,0 +1,269 @@
+:root {
+    --light-color: #fffafa;
+    --dark-color: #221f3b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    margin: 0 100px;
+}
+
+#home {
+    background-color: var(--light-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeText {
+    width: 400px;
+    height: auto;
+    color: var(--dark-color);
+}
+
+.homeText input {
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.homeText input:hover {
+    background-color: #221f7b;
+}
+
+.homeText input:focus {
+    outline: none;
+}
+
+.homeText h1 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+}
+
+.homeImg img {
+    width: 500px;
+    margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #home {
+        flex-direction: column;
+    }
+    .homeImg {
+        display: none;
+    }
+}
+
+#service {
+    background-color: var(--dark-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#service .serviceHeader h1 {
+    color: var(--light-color);
+    font-weight: 700;
+}
+
+#service .serviceCard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#service .serviceCard .card {
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 13px;
+    background-color: var(--light-color);
+}
+
+#service .serviceCard .cardPrincipal {
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 13px;
+    background-color: var(--light-color);
+}
+
+#service .serviceCard img {
+    width: 100px;
+    text-align: center;
+}
+
+#service img {
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    #service .serviceCard {
+        flex-direction: column;
+    }
+}
+
+#about {
+    background-color: var(--light-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    width: 300px;
+    height: auto;
+}
+
+.aboutText h1 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.aboutImg img {
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        flex-direction: column;
+    }
+}
+
+#project {
+    background-color: var(--dark-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--light-color);
+}
+
+#project .projectImg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+#project .projectImg img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #project .projectImg {
+        margin: 0 5px;
+    }
+    #project .projectImg img {
+        width: 170px;
+        margin: 5px;
+    }
+}
+
+#contact {
+    background-color: var(--light-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact .contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#contact .contactContainer .contactText h1 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+#contact .contactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contactForm form input {
+    margin: 10px 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--dark-color);
+    background-color: var(--light-color);
+    padding: 5px;
+}
+
+#contact .contactForm form input:hover {
+    border-bottom: 2px solid red;
+}
+
+#contact img {
+    width: 450px;
+}
+
+@media screen and (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact img {
+        width: 300px;
+    }
+}
+
+footer {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
