@@ -1,3 +1,7 @@
+:root {
+  --swiper-theme-color: green;
+}
+
 .swiper-container {
   width: 80vw;
   height: 300px;
@@ -25,4 +29,8 @@
 
 img {
   width: 300px;
+}
+
+.swiper-pagination {
+  color: red;
 }
