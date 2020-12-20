@@ -11,7 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="styles/main.css" />
+
+
 
     <title>Sigma Enterprise</title>
 </head>
@@ -93,14 +98,22 @@
         <div class="projectText">
             <h1>Nossos Projetos</h1>
         </div>
-        <div class="projectImg">
-            <img src="./img/Wolf.png">
-            <img src="./img/port2.png">
-            <img src="./img/port43.png">
-            <img src="./img/ws.gif">
-            <img src="./img/bot.gif">
-            <img src="./img/ws.gif">
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/Wolf.png"></div>
+                <div class="swiper-slide"><img src="./img/port2.png"></div>
+                <div class="swiper-slide"><img src="./img/port43.png"></div>
+                <div class="swiper-slide"><img src="./img/ws.gif"></div>
+                <div class="swiper-slide"><img src="./img/bot.gif"></div>
+                <div class="swiper-slide"><img src="./img/ws.gif"></div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
+
     </section>
 
     <section id="contact">
@@ -132,6 +145,9 @@
     </section>
     <footer>EMPRESA &copy; 2020 Todos os direitos reservados.</footer>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 

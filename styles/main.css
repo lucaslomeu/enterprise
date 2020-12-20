@@ -2,6 +2,8 @@
 @import './service.css';
 @import './project.css';
 @import './contact.css';
+@import './swiper.css';
+
 :root {
   --light-color: #fffafa;
   --dark-color: #221f3b;
