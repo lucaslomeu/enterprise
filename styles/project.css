@@ -18,3 +18,17 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
+
+@media screen and (max-width: 368px) {
+  #project .projectText h1 {
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 768px) {
+  #project .projectText h1 {
+    font-size: 24px;
+    letter-spacing: 0.15em;
+  }
+}
