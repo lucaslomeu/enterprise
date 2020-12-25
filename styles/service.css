@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 368px) {
   #service .serviceHeader h1 {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.1rem;
   }
   #service .serviceCard h2 {
@@ -103,6 +103,7 @@
 @media (min-width: 368px) and (max-width: 400px) {
   #service .serviceHeader h1 {
     font-size: 24px;
+    letter-spacing: 0.15em;
   }
   #service .serviceCard h2 {
     display: none;
