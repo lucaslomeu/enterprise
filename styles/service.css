@@ -119,12 +119,19 @@
 }
 
 @media (min-width: 400px) and (max-width: 768px) {
+  #service .serviceHeader h1 {
+    font-size: 24px;
+    letter-spacing: 0.15em;
+  }
+  #service .serviceCard h2 {
+    display: none;
+  }
   #service .serviceCard {
     flex-direction: column;
   }
   #service .serviceCard .card,
   #service .serviceCard .cardPrincipal {
-    margin: 12px;
-    height: 190px;
+    margin: 5px;
+    height: 180px;
   }
 }
