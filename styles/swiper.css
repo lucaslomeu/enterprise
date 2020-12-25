@@ -32,8 +32,9 @@ img {
   width: 300px;
 }
 
-@media screen and (max-width: 450px) {
-  .swiper-slide {
-    background: transparent;
+@media (min-width: 768px) {
+  .swiper-container {
+    width: 70vw;
+    height: 300px;
   }
 }
