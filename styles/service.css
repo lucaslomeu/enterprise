@@ -48,7 +48,7 @@
   width: 220px;
   height: 220px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@
   width: 220px;
   height: 250px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
