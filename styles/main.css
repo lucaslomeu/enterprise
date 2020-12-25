@@ -24,9 +24,8 @@ html {
 }
 
 .container-fluid {
-  margin: 0 100px;
+  width: auto;
 }
-
 #home {
   background-color: var(--light-color);
   width: 100vw;
