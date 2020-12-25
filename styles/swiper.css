@@ -3,7 +3,7 @@
 }
 
 .swiper-container {
-  width: 80vw;
+  width: 6000px;
   height: 300px;
 }
 
@@ -36,9 +36,5 @@ img {
 @media screen and (max-width: 450px) {
   .swiper-slide {
     background: transparent;
-    width: 250px !important;
-  }
-  img {
-    width: 200px;
   }
 }
